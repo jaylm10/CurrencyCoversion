@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d2a5; /* Slight background outside the container */
+}
+
+/* Container Styling */
+.container {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    background: linear-gradient(to right, #f1bebe 0%, #f3d87f 100%);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Title */
+h1 {
+    position: relative;
+    top: -40px;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Dropdown Styling */
+select {
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Buttons Section */
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Add space between the INR and USD sections */
+    margin-top: 10px;
+}
+
+.inr, .usd {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #f3a683;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f19066;
+}
